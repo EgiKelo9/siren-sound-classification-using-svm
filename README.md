@@ -3,25 +3,25 @@
 This repository contains a project for classifying siren sounds (e.g., ambulance, police, fire truck) using a Support Vector Machine (SVM) classifier. The goal is to distinguish siren sounds from other environmental audio for potential applications such as smart city systems, traffic monitoring, or emergency response support.
 
 ## 📁 Project Structure
-|── .venv/ # Virtual environment to store dependencies
+├── .venv/ # Virtual environment to store dependencies
 
-|── sounds/ # Siren dataset downloaded from Kaggle
+├── sounds/ # Siren dataset downloaded from Kaggle
 
-|── app.py # Streamlit UI code
+├── app.py # Streamlit UI code
 
-|── background.jpg # Background image used in Streamlit
+├── background.jpg # Background image used in Streamlit
 
-|── module.py # All modules (ex: load audio, preprocessing, SVM model)
+├── module.py # All modules (ex: load audio, preprocessing, SVM model)
 
-|── svm_encoder.pkl # Exported encoder class labels
+├── svm_encoder.pkl # Exported encoder class labels
 
-|── svm_model.pkl # Exported trained SVM model
+├── svm_model.pkl # Exported trained SVM model
 
-|── svm_scaler.pkl # Exported standard scaler
+├── svm_scaler.pkl # Exported standard scaler
 
-|── svm_scratch.ipynb # Jupyter notebook to implement pipeline
+├── svm_scratch.ipynb # Jupyter notebook to implement pipeline
 
-|── requirements.txt # Python dependencies
+├── requirements.txt # Python dependencies
 
 └── README.md # Project overview
 
