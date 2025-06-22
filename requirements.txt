@@ -1,0 +1,13 @@
+tqdm
+numpy
+scipy
+pandas
+cvxopt
+joblib
+seaborn
+librosa
+requests
+streamlit
+matplotlib
+cloudpickle
+scikit-learn
