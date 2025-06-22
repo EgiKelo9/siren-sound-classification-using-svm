@@ -4,15 +4,25 @@ This repository contains a project for classifying siren sounds (e.g., ambulance
 
 ## 📁 Project Structure
 |── .venv/ # Virtual environment to store dependencies
+
 |── sounds/ # Siren dataset downloaded from Kaggle
+
 |── app.py # Streamlit UI code
+
 |── background.jpg # Background image used in Streamlit
+
 |── module.py # All modules (ex: load audio, preprocessing, SVM model)
+
 |── svm_encoder.pkl # Exported encoder class labels
+
 |── svm_model.pkl # Exported trained SVM model
+
 |── svm_scaler.pkl # Exported standard scaler
+
 |── svm_scratch.ipynb # Jupyter notebook to implement pipeline
+
 |── requirements.txt # Python dependencies
+
 └── README.md # Project overview
 
 ## 🚀 How to Use
